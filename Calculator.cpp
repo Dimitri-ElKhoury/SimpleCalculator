@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main() {
 
@@ -14,6 +15,7 @@ int main() {
 
     std::cout << "Product = " << a * b << std::endl;
 
+    std::cout << "Power = " << std::pow(a, b) << std::endl;
     if (b != 0) {
 
         std::cout << "Quotient = " << a / b << std::endl;
